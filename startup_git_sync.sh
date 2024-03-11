@@ -4,6 +4,7 @@
 source_files=(
   "/home/wraient/.config/hypr"
   "/home/wraient/.bashrc"
+  "/home/wraient/.zshrc"
 )
 
 # Check if any source files were provided
