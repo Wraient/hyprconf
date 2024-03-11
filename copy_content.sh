@@ -36,10 +36,18 @@ for source_path in "${source_files[@]}"; do
     mkdir -p "$destination_folder/$parent_folder_name"  # Create parent folder if needed (-p flag)
     filename=$(basename "$source_path")
     cp "$source_path" "$destination_folder/$parent_folder_name/$filename"  # Copy with full path
-  #else
+  else
     # If it's a folder, skip processing (handled elsewhere, or comment out if not needed)
-    # echo "Skipping folder: $source_path"
-  fi   # <-- Indentation corrected here
+    source_folder_name=$(basename "$source_path")
+    destination_subfolder="$destination_folder/$source_folder_name"
+
+    # Create the subfolder within destination folder (if needed)
+    mkdir -p "$destination_subfolder"
+
+    # Use cp -r to copy folder content recursively
+    cp -r "$source_path/"* "$destination_subfolder"
+    echo "Successfully copied folder: $source_path"
+  fi
 done
 
 echo "Contents copied successfully."
