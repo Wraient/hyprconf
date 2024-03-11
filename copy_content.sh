@@ -51,4 +51,4 @@ for source_path in "${source_files[@]}"; do
 done
 
 echo "Contents copied successfully."
-
+notify-send "Copied Files"
