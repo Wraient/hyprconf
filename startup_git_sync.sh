@@ -2,6 +2,7 @@
 
 # List of file paths and folder paths to copy
 paths=(
+    "/home/wraient/.config/hypr/",
 
 
     # Add more file and folder paths as needed
