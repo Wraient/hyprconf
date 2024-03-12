@@ -1,0 +1,2 @@
+pactl load-module module-combine-sink sink_name=combined slaves=bluez_output.B8_CC_16_A3_5D_37.1,bluez_output.F0_BE_25_69_25_69.1
+set-default-sink combined
