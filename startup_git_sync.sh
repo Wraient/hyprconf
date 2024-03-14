@@ -2,6 +2,7 @@
 
 # Get the list of files from the first argument (assuming space-separated)
 source_files=(
+  "/usr/bin/brave"
   "/home/wraient/.config/hypr"
   "/home/wraient/.bashrc"
   "/home/wraient/.zshrc"
