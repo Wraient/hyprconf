@@ -1,7 +1,8 @@
 # Path to your oh-my-zsh installation.
 ZSH=/usr/share/oh-my-zsh/
 PATH="$HOME/bin:$PATH:/home/wraient/.local/bin"
-
+PATH="$HOME/bin:$PATH:/root/.local/share/gem/ruby/3.0.0/bin"
+PATH="$HOME/bin:$PATH:/home/wraient/.local/share/gem/ruby/3.0.0/bin"
 
 # Path to powerlevel10k theme
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
@@ -78,3 +79,5 @@ alias ssh='kitten ssh'
 
 #Display Pokemon
 pokemon-colorscripts --no-title -r 1,3,6
+
+export PATH=$PATH:/home/wraient/.spicetify
