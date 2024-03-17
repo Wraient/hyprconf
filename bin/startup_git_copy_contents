@@ -8,6 +8,8 @@ source_files=(
   "/home/wraient/.zshrc"
   "/home/wraient/.local/bin"
   "/home/wraient/.config/spicetify"
+  # nvimChad
+  "/home/wraient/.config/nvim"
 )
 
 # Check if any source files were provided
