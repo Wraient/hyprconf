@@ -8,6 +8,7 @@ source_files=(
   "/home/wraient/.zshrc"
   "/home/wraient/.local/bin"
   "/home/wraient/.config/spicetify"
+  "/home/wraient/.config/swaylock/"
   # nvimChad
   "/home/wraient/.config/nvim"
 )
