@@ -9,4 +9,4 @@ fi
 
 export CHROME_VERSION_EXTRA="stable"
 
-exec /opt/brave-bin/brave --enable-features=UseOzonePlatform --enable-features=TouchpadOverscrollHistoryNavigation --ozone-platform=wayland  "$@" $USER_FLAGS
+exec /opt/brave-bin/brave "$@" $USER_FLAGS
