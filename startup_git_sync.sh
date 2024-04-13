@@ -9,7 +9,8 @@ source_files=(
   "/home/wraient/.local/bin"
   "/home/wraient/.config/spicetify"
   "/home/wraient/.config/swaylock/"
-  # nvimChad
+  "/home/wraient/.config/neofetch/"
+# nvimChad
   "/home/wraient/.config/nvim"
 )
 
