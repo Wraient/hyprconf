@@ -12,6 +12,7 @@ source_files=(
   "/home/wraient/.config/neofetch/"
 # nvimChad
   "/home/wraient/.config/nvim"
+  "/home/wraient/.config/fusuma"
 )
 
 # Check if any source files were provided
