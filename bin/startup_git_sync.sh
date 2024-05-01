@@ -10,6 +10,7 @@ source_files=(
   "/home/wraient/.config/spicetify"
   "/home/wraient/.config/swaylock/"
   "/home/wraient/.config/neofetch/"
+  "/home/wraient/.config/brave-flags.conf"
 # nvimChad
   "/home/wraient/.config/nvim"
   "/home/wraient/.config/fusuma"
